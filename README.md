@@ -26,8 +26,43 @@ In the GMTK GameJam-2023 I helped make a game called "World Wide Casino" (found 
 ### 📋 Other:
 I've also gained experience in programming non-game related applications. Currently, I help manage a couple websites for a small company called "Qualiti7". I help manage their [main website](https://qualiti7.com/) as well as their [conferene website](https://iq7conference.com/?lang=en). Feel free to check them out.
 
-## Some of my skills...
+## 💪 Some of my skills...
+- Java
+- C
+- C#
+- Unity
 
+## ✌️ About me...
+
+### Fun facts:
+- I liked eating so much as a kid that I figured I should learn to cook and bake well 🍳
+- I build plastic figurines of humanoid robots 🤖
+- I like to paint to help me relax 🖌️
+- I like playing pretend with others around a table for long periods of time (D&D) 🐉
+- When I have time for it I try to practice the guitar 🎸
+
+### Media that has influenced me:
+#### Games 🖥️
+1. Paper Mario TTYD
+2. Pyre
+3. Nier: Replicant
+#### TV 📺
+1. Bojack Horseman
+2. Breaking Bad
+3. Gundam: IBO
+#### Movies 🎥
+1. Blade Runner 2049
+2. UP
+3. Everything Everywhere All at Once
+#### Books 📖
+1. Do Androids Dream of Electric Sheep
+2. Dune
+3. Chainsaw Man
+
+## 👯 I’m looking to collaborate on ...
+Pretty much anything to do with gamedev. If you want my help or to work together send me a message. 👍
+
+## 📫 How to reach me...
 <!--
 **gdmbenedict/gdmbenedict** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
