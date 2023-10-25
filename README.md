@@ -20,6 +20,7 @@ This is a game I made with some friends as part of a university course I was tak
 Here are some Game Jams I've participated in.
 #### GMTK GameJam-2023: WorldWide Casino:
 In the GMTK GameJam-2023 I helped make a game called "World Wide Casino" (found [here](https://arizoba.itch.io/worldwide-casino) on itch.io). For the prompt "Rolls Reversed" we made a game where you play as the boss in an old "Time Crisis" style shooting game. You must avoid the player's shots and make your way back to your casino to retrieve your gun and turn the tables against the player.
+
 ![WorldWideCasino](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/70073a7b-f6cb-4157-9b94-06cbbece7293)
 
 ### 📋 Other:
