@@ -3,6 +3,12 @@
 I'm Matthieu Benedict is a first year student in NSCC's game programming progam. I've dabbled in software engineering, IT, and managment best practices, but my true love is game programming. I know a few different programming languages and am always hungry for more experience in the industry!
 
 #### 🔭 I’m currently working on 
+
+I'm currently working on a prototype for a MetroidVania game (working title: Vain) for my game development class. The core elements of this game are of course 2D action combat and platforming. An elevator pitch for this game may be something like this: "Betrayed and cast down from divinity by her children, the goddess must now make her way back up the divine tower to take back her powers and enact her revenge".
+
+Right now I'm working on a combat re-work for the game to provide some more fluid and responsive combat than my first prototype build of the project.
+
+####
 <!--
 **gdmbenedict/gdmbenedict** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
