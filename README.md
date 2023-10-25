@@ -1,5 +1,8 @@
-### Hi there 👋
+### Hi there 👋 I'm Matt.
 
+I'm Matthieu Benedict is a first year student in NSCC's game programming progam. I've dabbled in software engineering, IT, and managment best practices, but my true love is game programming. I know a few different programming languages and am always hungry for more experience in the industry!
+
+#### 🔭 I’m currently working on 
 <!--
 **gdmbenedict/gdmbenedict** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
