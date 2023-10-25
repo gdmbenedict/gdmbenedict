@@ -14,6 +14,7 @@ I've done a few things in the field of programming. here are some highlights.
 Here are some of the games I've made.
 #### Break Your Maker:
 This is a game I made with some friends as part of a university course I was taking (found [here](https://twitchton.itch.io/break-your-maker) on itch.io). It was a small top down shooter game used to explore applying proceedural generation to a game. You play as a super soldier trying to escape the lab that made you. Make your way through the randomly generated level to find the key card and fight the boss to earn your freedom!
+![Break Your Maker Screenshot](https://github.com/gdmbenedict/gdmbenedict/blob/master/SRC-Images/BreakYourMaker.PNG)
 
 ### 🕹️ Game Jams:
 Here are some Game Jams I've participated in.
