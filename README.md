@@ -64,10 +64,10 @@ I've also gained experience in programming non-game related applications. Curren
 Pretty much anything to do with gamedev. If you want my help or to work together send me a message. 👍
 
 ## 📫 How to reach me...
-[gdmbenedict@outlook.com](mailto:gdmbenedict@outlook.com)
-[Linkedin](https://www.linkedin.com/in/matthieu-benedict-646a761a9/)
-[Facebook](https://www.facebook.com/gdmbenedict)
-[Instagram](https://www.instagram.com/gdmbenedict/)
+[gdmbenedict@outlook.com](mailto:gdmbenedict@outlook.com) <br>
+[Linkedin](https://www.linkedin.com/in/matthieu-benedict-646a761a9/) <br>
+[Facebook](https://www.facebook.com/gdmbenedict) <br>
+[Instagram](https://www.instagram.com/gdmbenedict/) <br>
 
 
 <!--
