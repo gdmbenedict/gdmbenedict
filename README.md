@@ -31,6 +31,7 @@ I've also gained experience in programming non-game related applications. Curren
 - C
 - C#
 - Unity
+- French
 
 ## ✌️ About me...
 
@@ -64,6 +65,9 @@ Pretty much anything to do with gamedev. If you want my help or to work together
 
 ## 📫 How to reach me...
 [gdmbenedict@outlook.com](mailto:gdmbenedict@outlook.com)
+[Linkedin](https://www.linkedin.com/in/matthieu-benedict-646a761a9/)
+[Facebook](https://www.facebook.com/gdmbenedict)
+[Instagram](https://www.instagram.com/gdmbenedict/)
 
 
 <!--
