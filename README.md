@@ -63,6 +63,9 @@ I've also gained experience in programming non-game related applications. Curren
 Pretty much anything to do with gamedev. If you want my help or to work together send me a message. 👍
 
 ## 📫 How to reach me...
+[gdmbenedict@outlook.com](mailto:gdmbenedict@outlook.com)
+
+
 <!--
 **gdmbenedict/gdmbenedict** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
