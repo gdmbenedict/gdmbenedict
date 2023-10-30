@@ -26,6 +26,10 @@ In the GMTK GameJam-2023 I helped make a game called "World Wide Casino" (found 
 ### 📋 Other:
 I've also gained experience in programming non-game related applications. Currently, I help manage a couple websites for a small company called "Qualiti7". I help manage their [main website](https://qualiti7.com/) as well as their [conferene website](https://iq7conference.com/?lang=en). Feel free to check them out.
 
+## 🏫 Education...
+- **NSCC** - Game Programming Diplmoa (2023 - Current) *still in education*
+- **UNB** - Bachelor's in Science: Software Engineering (2020 - 2023) *incomplete*.  
+
 ## 💪 Some of my skills...
 - Java
 - C
