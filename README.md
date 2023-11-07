@@ -35,16 +35,16 @@ I've also gained experience in programming non-game related applications. Curren
 - C
 - C#
 - Unity
-- French
 
 ## ✌️ About me...
 
 ### Fun facts:
-- I liked eating so much as a kid that I figured I should learn to cook and bake well 🍳
-- I build plastic figurines of humanoid robots 🤖
-- I like to paint to help me relax 🖌️
-- I like playing pretend with others around a table for long periods of time (D&D) 🐉
-- When I have time for it I try to practice the guitar 🎸
+- I am bilingual in French and English. 🇨🇦
+- I liked eating so much as a kid that I figured I should learn to cook and bake well. 🍳
+- I build plastic figurines of humanoid robots. 🤖
+- I like to paint to help me relax. 🖌️
+- I like playing pretend with others around a table for long periods of time (D&D). 🐉
+- When I have time for it I try to practice the guitar. 🎸
 
 ### Media that has influenced me:
 #### Games 🖥️
