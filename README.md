@@ -7,7 +7,7 @@ I'm currently working on a prototype for a MetroidVania game (working title: Vai
 
 Right now I'm working on a combat re-work for the game to provide some more fluid and responsive combat than my first prototype build of the project.
 
-If you want to see updates on the project you can do so by view [this playlist](www.youtube.com/watch?v=xdYTklGnodY&list=PLYCHzlj4rAu38qnKfRdh80x80c-6fof64&index=1&t=0s).
+If you want to see updates on the project you can do so by view [this playlist](https://youtube.com/watch?v=xdYTklGnodY&list=PLYCHzlj4rAu38qnKfRdh80x80c-6fof64&index=1&t=0s).
 
 ## 📂 Things I've done...
 I've done a few things in the field of programming. here are some highlights.
