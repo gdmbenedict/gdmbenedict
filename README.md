@@ -38,7 +38,7 @@ I've also gained experience in programming non-game related applications. Curren
 
 ## 🏫 Education...
 - **NSCC** - Game Programming Diplmoa (2023 - Current) *still in education*
-- **UNB** - Bachelor's in Science: Software Engineering (2018 - 2023) *85 Credits comppleted*.  
+- **UNB** - Bachelor's in Science: Software Engineering (2020 - 2023) *85 Credits comppleted*.  
 
 ## 💪 Some of my skills...
 
@@ -55,7 +55,7 @@ I've also gained experience in programming non-game related applications. Curren
 ## ✌️ About me...
 
 ### Fun facts:
-- I am bilingual in French and English. 🇨🇦
+- I am bilingual in French and English. 🥖
 - I liked eating so much as a kid that I figured I should learn to cook and bake well. 🍳
 - I build plastic figurines of humanoid robots. 🤖
 - I like to paint to help me relax. 🖌️
