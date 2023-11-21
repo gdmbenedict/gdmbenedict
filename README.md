@@ -31,6 +31,8 @@ In the GMTK GameJam-2023 I helped make a game called "World Wide Casino" (found 
 #### DIG GameJam 2023: Mutual Card Game:
 The DIG GameJam is a game jam run locally (in Halifax) through the Dalhousie Interactive Games Society, a Dalhousie club for students interested in persuing game creation. This was the first GameJam hosted by them, and the theme for the GameJam was "Mutual Gain". I teamed up with some of my peers at NSCC to make a game for this GameJam, and together we came up with the idea of a card game based off a trading mechanic. The idea was players would have to work with their hand of cards to get the highest point total, collected by getting numbered cards of the player's suit, by trading with other players and using power cards (face cards). If You're interested you can find the game on [itch.io](https://twitchton.itch.io/mutual-card-gain).
 
+![MutualCardGain](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/8bfc5663-b4bf-4ca6-a6f5-f17c76fcfe46)
+
 ### 📋 Other:
 I've also gained experience in programming non-game related applications. Currently, I help manage a couple websites for a small company called "Qualiti7". I help manage their [main website](https://qualiti7.com/) as well as their [conferene website](https://iq7conference.com/?lang=en). Feel free to check them out.
 
