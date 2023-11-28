@@ -38,7 +38,7 @@ I've also gained experience in programming non-game related applications. Curren
 
 ## 🏫 Education...
 - **NSCC** - Game Programming Diplmoa (2023 - Current) *still in education*
-- **UNB** - Bachelor's in Science: Software Engineering (2020 - 2023) *85 Credits comppleted*.  
+- **UNB** - Bachelor's in Science: Software Engineering (2020 - 2023) *85 Credits completed*.  
 
 ## 💪 Some of my skills...
 
