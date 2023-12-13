@@ -1,23 +1,35 @@
 # Hi there 👋 I'm Matt.
 
-I'm Matthieu Benedict, a first year student in NSCC's game programming progam. I've dabbled in software engineering, IT, and management best practices, but my true love is game programming. I know a few different programming languages and am always hungry for more experience in the industry!
+I'm Matthieu Benedict, a first year student in NSCC's game programming progam specializing in Level Design and Gameplay Programming. I've dabbled in software engineering, IT, and management best practices, but my true love is game programming. I know a few different programming languages and am always hungry for more experience in the industry!
 
 ## 💼 I’m currently working on...
-I'm currently working on a prototype for a MetroidVania game (working title: Vain) for my game development class. The core elements of this game are of course 2D action combat and platforming. An elevator pitch for this game may be something like this: "Betrayed and cast down from divinity by her children, the goddess must now make her way back up the divine tower to take back her powers and enact her revenge".
+Right now my main project is a text-based RPG project coded from scratch using C#. This project started off as an assignment for NSCC's "Game Programming" course, but I am in the process of expanding it beyond the scope of the original assignment. My main goal with this project is to use it as an opportunity to brush up on my OOP and documentation skills. Techniques I am trying to utilize with this project are abstraction, inheretence, as well as other key pillars of OOP like encapsulation. Currently the game generates its map from a text file, though I am planning on adding in elements of proceedural generation to the game for levels enemies and loot. In its present state the game has a working player, enemies, and tiles. Soon there will be more added to the game.
 
-Right now I'm in the prototyping / pre-production phase of this project.
+![Screenshot 2023-12-12 231452](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/9e8fd415-3c39-4ef3-8071-d1f2cf0b7314)
 
-If you want to see updates on the project you can do so by view [this playlist](https://youtube.com/watch?v=xdYTklGnodY&list=PLYCHzlj4rAu38qnKfRdh80x80c-6fof64&index=1&t=0s).
-
-I'm also working on making a text based rpg in the same style as Rogue. this project is still just in it's begining phases and there isn't enough to show here, but I will have updates on the project here in the future.
+At the moment I am working on cleaning up some of the code to better acomodate abstraction, as well as working on creating documentation resources outside of the project such as UML Class diagrams as well a Github Wiki for the project. I look forwards to having more to share on this in the future. 
 
 ## 📂 Things I've done...
 I've done a few things in the field of programming. here are some highlights.
 
 ### 🎮 Game Projects:
 Here are some of the games I've made.
+
+#### MetroidVania Prototype:
+This is a solo project of mine that was started as part of an iterative design project for NSCC's "Game Development" course. The game can be found [here](https://twitchton.itch.io/metroidvania-prototype) on my itch.io page and is free to play. I used the project to prototype gameplay systems would be found in a MetroidVania action-platformer style of game. Some highlights from these systems are wall sliding, wall jumping, dashing, and creating an attack handler that isn't tied to character animations. The majority of the development time in this game was spent trying to refine the abilities of the player and tune them to create an intuitive and good feeling set of controls. Some other things from this project that I'm proud of is learning state machines for basic enemy AI as well as learning how to use Unity's built in tile system and animation system for sprites. 
+
+![Screenshot 2023-12-12 164229](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/f9c062ef-8ef5-4fd6-babe-c167e16ba5bf)
+
+
+As part of the submissions for NSCC's "Game Development" course I also catalogued my work on the game through a short video for each sprint I completed for the game. Those videos can be found in [this](https://www.youtube.com/watch?v=xdYTklGnodY&list=PLYCHzlj4rAu38qnKfRdh80x80c-6fof64) playlist on youtube. I don't have any plans to expand on this prototype in the near future, but plan on eventually creating a short design document for a game that could come from the prototypes systems from this project.
+
+#### Haunted Hospital
+This is another one of my NSCC solo projects. This assignment was for NSCC's "Game Engine" course, and was an assignment designed to teach Unity's sequencing and trigger systems, though I decided to expand on what the assignment was doing by trying to implement aspects of environmental story telling to the level. My main goal with this project was to evoke a foreboding/creepy atmosphere using Unity's lighting systems, sound systems, triggers, and timelines. Another key aspect I tried to keep in mind was the significance of using closed doors, and flickering lights as a visual motif in the level design. The game can be found [here](https://twitchton.itch.io/hospital-horror) on itch.io if you would like to see how the atmosphere of the game turned out for yourself.
+
+![Screenshot 2023-12-12 224759](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/e00b40a1-ca96-424e-bb88-905245957e84)
+
 #### Break Your Maker:
-This is a game I made with some friends as part of a university course I was taking (found [here](https://twitchton.itch.io/break-your-maker) on itch.io). It was a small top down shooter game used to explore applying proceedural generation to a game. You play as a super soldier trying to escape the lab that made you. Make your way through the randomly generated level to find the key card and fight the boss to earn your freedom!
+This is a game I made with some friends as part of a university course I was taking (found [here](https://twitchton.itch.io/break-your-maker) on itch.io). It was a small top down shooter game used to explore applying proceedural generation to a game. You play as a super soldier trying to escape the lab that made you. Make your way through the randomly generated level to find the key card and fight the boss to earn your freedom! My contribution to this project was level design, map generation, and power ups. I modified a random walk algorithm to help proceeduraly generate the level, and also made the room layouts using Unity's tile system. I additionally helped program the power up in the game as well as program the chests.
 ![Break Your Maker Key](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/bca19e70-0b04-43e1-ae27-9ec7ca3df58d)
 
 ### 🕹️ Game Jams:
