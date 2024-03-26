@@ -12,7 +12,7 @@ I've done a few things in the field of programming. here are some highlights.
 Here are some of the games I've made.
 
 #### Shooter Tech Demo
-This is a project I have worked on as part of my Game Mechanics class at NSCC. This was a solo development porject meant to test my skills in applying programming to create game systems using an engine. Some of the mechanics implemented in this tech demo were: Enemy AI states (Patrolling, Searching, Chasing, Attacking, and Retreating), instantiating projectiles, collectables, a respawn system, exploding projectiles, and wall running. I also added increased physics capabilities to the tech demo as it relates to the player by making a custom controller using Unity's physics Rigidbody system. I am still working on adding more polish to this project, and it will go up on Itch.io in the near future if you're interested in checking it out.
+This is a project I have worked on as part of my Game Mechanics class at NSCC. This was a solo development project meant to test my skills in applying programming to create game systems using an engine. Some of the mechanics implemented in this tech demo were: Enemy AI states (Patrolling, Searching, Chasing, Attacking, and Retreating), instantiating projectiles, collectables, a respawn system, exploding projectiles, and wall running. I also added increased physics capabilities to the tech demo as it relates to the player by making a custom controller using Unity's physics Rigidbody system. I am still working on adding more polish to this project, and it will go up on Itch.io in the near future if you're interested in checking it out.
 
 ![TechDemo](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/38bcc365-d098-4cea-b1fd-b52908b08dcf)
 
