@@ -3,7 +3,9 @@
 I'm Matthieu Benedict, a first year student in NSCC's game programming progam specializing in Level Design and Gameplay Programming. I've dabbled in software engineering, IT, and management best practices, but my true love is game programming. I know a few different programming languages and am always hungry for more experience in the industry!
 
 ## 💼 I’m currently working on...
-My main project at the moment is making a game design document for a theoretical horror game, done as part of my Game Design class at NSCC. The concept of the game is to have a survival horror game in the vein of "Silent Hill" that focueses on ARG elements in its gameplay. If you're interested in the concept, then you can check out the documentation I've made on [this](https://github.com/gdmbenedict/GDD-Horror-Game/wiki) Github wiki.
+My main project at the moment is making a game design document for a theoretical horror game, done as part of my Game Design class at NSCC. The concept of the game is to have a survival horror game in the vein of "Silent Hill" that focueses on ARG elements in its gameplay. If you're interested in the concept, then you can check out the documentation I've made on [this](https://github.com/gdmbenedict/GDD-Horror-Game/wiki) Github wiki. I've also made a video walking through the blockmesh (graybox/whitebox) of the first three levels. You can watch that by clicking on the video below.
+
+[![BlockMesh Video](https://img.youtube.com/vi/IHgyOoURJ6I/0.jpg)](https://www.youtube.com/watch?v=IHgyOoURJ6I)
 
 ## 📂 Things I've done...
 I've done a few things in the field of programming. here are some highlights.
@@ -45,8 +47,9 @@ This is a project I have worked on as part of my Game Mechanics class at NSCC. T
     }
 ```
 
-![Screenshot 2024-03-24 165642](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/8edc2ad0-dbeb-4acb-aa1c-1cd073790901)
+I also made a video showcasing what has been implemented in the tech demo. If you want to see it in motion you can watch it by clicking on the video below.
 
+[![TechDemo Video](https://img.youtube.com/vi/lDq96HGjxyw/0.jpg)](https://www.youtube.com/watch?v=lDq96HGjxyw)
 
 I am still working on adding more polish to this project, and it will go up on Itch.io in the near future if you're interested in checking it out.
 
@@ -110,7 +113,7 @@ This is another one of my NSCC solo projects. This assignment was for NSCC's "Ga
 
 ![Screenshot 2023-12-12 224759](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/e00b40a1-ca96-424e-bb88-905245957e84)
 
-If you just want to see smoeone play it, you can thanks to the kind people who have played the game and put up videos of it on youtube. You can watch the videos by clicking on the image below.
+If you just want to see smoeone play it, you can thanks to the kind people who have played the game and put up videos of it on youtube. You can watch the videos by clicking on the video below.
 
 [![Hospital Horror Videos](https://img.youtube.com/vi/aiAVZlFRoz8/0.jpg)](https://www.youtube.com/watch?v=aiAVZlFRoz8&list=PLj5bBtNjiCmnI7jya1zTzuOpzrbn9Z07t)
 
