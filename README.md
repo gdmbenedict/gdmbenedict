@@ -12,19 +12,107 @@ I've done a few things in the field of programming. here are some highlights.
 Here are some of the games I've made.
 
 #### Shooter Tech Demo
-This is a project I have worked on as part of my Game Mechanics class at NSCC. This was a solo development project meant to test my skills in applying programming to create game systems using an engine. Some of the mechanics implemented in this tech demo were: Enemy AI states (Patrolling, Searching, Chasing, Attacking, and Retreating), instantiating projectiles, collectables, a respawn system, exploding projectiles, and wall running. I also added increased physics capabilities to the tech demo as it relates to the player by making a custom controller using Unity's physics Rigidbody system. I am still working on adding more polish to this project, and it will go up on Itch.io in the near future if you're interested in checking it out.
+This is a project I have worked on as part of my Game Mechanics class at NSCC. This was a solo development project meant to test my skills in applying programming to create game systems using an engine. Some of the mechanics implemented in this tech demo were: Enemy AI states (Patrolling, Searching, Chasing, Attacking, and Retreating), instantiating projectiles, collectables, a respawn system, exploding projectiles, and wall running. I also added increased physics capabilities to the tech demo as it relates to the player by making a custom controller using Unity's physics Rigidbody system. I've included a code snippet handling wall jumping from the wall running script below.
 
-![TechDemo](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/38bcc365-d098-4cea-b1fd-b52908b08dcf)
+```
+    public void WallJump(InputAction.CallbackContext context)
+    {
+        if (isWallRunning && !gameManager.isGamePaused() && context.performed)
+        {
+            if (wallLeft)
+            {
+                Vector3 wallRunJumpDirection = transform.up + leftWallHit.normal;
+
+                //reset Y velocity to fix small jump bug
+                rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+
+                //calculate jump velocity and apply it to normalized wall jump vector
+                float jumpVelocity = Mathf.Sqrt(wallRunJumpHeight * -2f * Physics.gravity.y);
+                rb.AddForce(wallRunJumpDirection.normalized * jumpVelocity, ForceMode.VelocityChange);
+            }
+            else if (wallRight)
+            {
+                Vector3 wallRunJumpDirection = transform.up + rightWallHit.normal;
+
+                //reset Y velocity to fix small jump bug
+                rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+
+                //calculate jump velocity and apply it to normalized wall jump vector
+                float jumpVelocity = Mathf.Sqrt(wallRunJumpHeight * -2f * Physics.gravity.y);
+                rb.AddForce(wallRunJumpDirection.normalized * jumpVelocity, ForceMode.VelocityChange);
+            }
+        }
+    }
+```
+
+![Screenshot 2024-03-24 165642](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/8edc2ad0-dbeb-4acb-aa1c-1cd073790901)
+
+
+I am still working on adding more polish to this project, and it will go up on Itch.io in the near future if you're interested in checking it out.
 
 #### Text RPG
-This project is one that I made as part of my Game Programming class at NSCC. It is a text RPG game in the style of older computer rpgs like Rogue, Net-hack, and Moria. I made it completely from scratch, programming in simple enemy AI, loading from text documents, items, and other mechanics. The main focus of this project was focusing on OOP and the architecture of code in games. I really liked this project because it's made me appreciate how much needs to go into even simple mechanics I've taken for granted. This is still a project in active development so it's not available as a playable build, but you can take a look at the code on its publically available github repository [here](https://github.com/gdmbenedict/TextRPG_V2). *Comments in the code are pending.
+This project is one that I made as part of my Game Programming class at NSCC. It is a text RPG game in the style of older computer rpgs like Rogue, Net-hack, and Moria. I made it completely from scratch, programming in simple enemy AI, loading from text documents, items, and other mechanics. The main focus of this project was focusing on OOP and the architecture of code in games. I really liked this project because it's made me appreciate how much needs to go into even simple mechanics I've taken for granted. 
 
 ![TextRPG](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/9ca39f96-5ddd-4b3f-b589-0e5198a53afb)
+
+One thing I'm proud on having implemented is an action system that allows entities in the game to take multiple actions within their turn according to their speed. This means that other entities can both be faster or slower than the player, in a manner similar to how a board game like Dungeons and Dragons does their turn system. I've included the code for turns below as a peek in to the system.
+
+```
+/// <summary>
+/// Method that instructs the EntityTurn to go through its update process.
+/// </summary>
+/// <param name="map">the map the game is on</param>
+/// <param name="uIManager">the manager for the game UI</param>
+/// <param name="itemManager">the manager for the items on the map</param>
+/// <param name="entityManager">the manager for entities on the map</param>
+/// <returns></returns>
+public bool Update(Map map, UIManager uIManager, ItemManager itemManager, EntityManager entityManager)
+{
+    //adding speed to build up the Entity's turn
+    turnBuildup += entity.spd.GetStat();
+
+    while (turnBuildup >= GlobalVariables.actionThreshold)
+    {
+        //update UI for player
+        if (entity == entityManager.GetPlayer())
+        {
+            uIManager.DrawUI(map);
+        }
+
+        //checks if player is standing on the exit tile
+        if (map.GetTile(map.GetEntityIndex(entityManager.GetPlayer())).GetExit())
+        {
+            return true;
+        }
+
+        //adds events of the turn to the log (if the events were notable)
+        uIManager.AddEventToLog(TakeAction(map, uIManager, itemManager));
+
+        //check if entity takes damage from tile
+        if (map.GetTile(map.GetEntityIndex(entity)).GetDangerous())
+        {
+            uIManager.AddEventToLog(map.GetTile(map.GetEntityIndex(entity)).DealDamage(entity));
+        }
+
+        //gets the entity manager to check for dead enemies
+        entityManager.CheckDeadEntities(map, uIManager);
+    }
+
+    return false;
+
+}
+```
+
+This is still a project in active development so it's not available as a playable build, but you can take a look at the code on its publically available github repository [here](https://github.com/gdmbenedict/TextRPG_V2). *Comments in the code are pending.
 
 #### Haunted Hospital
 This is another one of my NSCC solo projects. This assignment was for NSCC's "Game Engine" course, and was an assignment designed to teach Unity's sequencing and trigger systems, though I decided to expand on what the assignment was doing by trying to implement aspects of environmental story telling to the level. My main goal with this project was to evoke a foreboding/creepy atmosphere using Unity's lighting systems, sound systems, triggers, and timelines. Another key aspect I tried to keep in mind was the significance of using closed doors, and flickering lights as a visual motif in the level design. The game can be found [here](https://twitchton.itch.io/hospital-horror) on itch.io if you would like to see how the atmosphere of the game turned out for yourself.
 
 ![Screenshot 2023-12-12 224759](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/e00b40a1-ca96-424e-bb88-905245957e84)
+
+If you just want to see smoeone play it, you can thanks to the kind people who have played the game and put up videos of it on youtube. You can watch the videos by clicking on the image below.
+
+[![Hospital Horror Videos](https://img.youtube.com/vi/aiAVZlFRoz8/0.jpg)](https://www.youtube.com/watch?v=aiAVZlFRoz8&list=PLj5bBtNjiCmnI7jya1zTzuOpzrbn9Z07t)
 
 ### 🕹️ Game Jams:
 Here are some Game Jams I've participated in.
