@@ -3,14 +3,133 @@
 I'm Matthieu Benedict, a second year student in NSCC's game programming progam specializing in gameplay and generalist programming. I've dabbled in software engineering, IT, and management best practices, but my true love is game programming. I know a few different programming languages and am always hungry for more experience in the industry!
 
 ## 💼 I’m currently working on...
-My main project at the moment is making a game design document for a theoretical horror game, done as part of my Game Design class at NSCC. The concept of the game is to have a survival horror game in the vein of "Silent Hill" that focueses on ARG elements in its gameplay. If you're interested in the concept, then you can check out the documentation I've made on [this](https://github.com/gdmbenedict/GDD-Horror-Game/wiki) Github wiki. I've also made a video walking through the blockmesh (graybox/whitebox) of the first three levels. You can watch that by clicking on the video below.
+My main project at the moment is a SHMUP (Shoot em' Up) I made for my Game Development III course called Burrow Blaster. The idea with the game is to make a more accessible SHMUP by combining it with upgrade style mechanics in the vein of 2000s internet flash games (such as "*Learn to Fly*"). This is to help people get through the wall of "Get Good" that these games often require. I've included a video showing off the game below.
 
-[![BlockMesh Video](https://img.youtube.com/vi/IHgyOoURJ6I/0.jpg)](https://www.youtube.com/watch?v=IHgyOoURJ6I)
+The game was developed in collaboration with one of the game art students in the program. I did all the programming as well as taking on tasks around sound design, UI design, as well as gameplay and level design. There's a lot I'm pretty proud of in this project, but one of the things I'm most proud of, is the code handling visuals for player upgrades. Here's a snippet of that code that handles updating player visuals.
+
+```
+//Function that updates the visuals for a badger
+private void UpdateVisualsFromList(int upgradeLevel, bool addative, List<GameObject[]> visualsList, bool transition)
+{
+    //Turn off visuals if visuals are on
+    foreach (GameObject[] visuals in visualsList)
+    {
+        foreach (GameObject visual in visuals)
+        {
+            if (visual.activeSelf)
+            {
+                visual.SetActive(false);
+            }
+        }
+    }
+
+    //Determine which types of visual it is (addative or replacing)
+    if (addative)
+    {
+        for (int i=0; i<upgradeLevel+1; i++)
+        {
+            foreach (GameObject visual in visualsList[i])
+            {
+                visual.SetActive(true);
+            }
+        }
+    }
+    else
+    {
+        //determine which version of the collection health to use
+        switch (upgradeLevel)
+        {
+            //level 1
+            case 1:
+                foreach (GameObject visual in visualsList[1])
+                {
+                    visual.SetActive(true);
+                }
+                break;
+
+            //level 2
+            case 2:
+                foreach (GameObject visual in visualsList[2])
+                {
+                    visual.SetActive(true);
+                }
+                break;
+
+            //level 3
+            case 3:
+                foreach (GameObject visual in visualsList[3])
+                {
+                    visual.SetActive(true);
+                }
+                break;
+
+            //level 4
+            case 4:
+                foreach (GameObject visual in visualsList[4])
+                {
+                    visual.SetActive(true);
+                }
+                break;
+
+            //level 0 or wrong level
+            default:
+                foreach (GameObject visual in visualsList[0])
+                {
+                    visual.SetActive(true);
+                }
+                break;
+        }
+    }
+```
+
+I'm also very happy with my gameplay scene management system. It helped me fix issues with game performance from having too much cramed in the gameplay scene, and functions through loading and unloading chunks of the gameplay scene as they are needed. Here's a snippet showing off the logic it goes through.
+
+```
+void Update()
+{
+    float distancefromPlayer;
+
+    //loop through tiles to load them in
+    for (int i=0; i<segments.Length; i++)
+    {
+        //check distance from player camera
+        distancefromPlayer = Mathf.Abs(segments[i].position.z - cam.transform.position.z);
+        //Debug.Log(distancefromPlayer);
+
+        //load if close enough and unloaded
+        if (distancefromPlayer <= distance && !segments[i].loaded)
+        {
+            //Debug.Log("Calling load segment");
+            LoadSegment(segments[i]);
+            segments[i].loaded = true;
+        }
+        //unloadd scene if too far
+        else if (distancefromPlayer > distance && segments[i].loaded)
+        {
+            UnloadSegment(segments[i]);
+            segments[i].loaded = false;
+        }
+    }
+}
+
+//Function to load segments if player is close to segment position;
+private void LoadSegment(Segment segment)
+{
+    AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(segment.scene, LoadSceneMode.Additive);
+}
+
+//Function to un-load segments if player is far from segment position;
+private void UnloadSegment(Segment segment)
+{
+    AsyncOperation unloadOperation = SceneManager.UnloadSceneAsync(segment.scene);
+}
+```
+Though the game is still a work in progress it's avaiable to play on [itch.io](https://gdmbenedict.itch.io/burrow-blaster), and if you have time I'd be delighted to get some feedback!
 
 ## 📂 Things I've done...
 I've done a few things in the field of programming. here are some highlights.
 
-### 🎮 Game Projects:
+### 🎮 Game & Program Projects:
 Here are some of the games I've made.
 
 #### Shooter Tech Demo
@@ -53,10 +172,10 @@ I also made a video showcasing what has been implemented in the tech demo. If yo
 
 I am still working on adding more polish to this project, and it will go up on Itch.io in the near future if you're interested in checking it out.
 
-#### Text RPG
-This project is one that I made as part of my Game Programming class at NSCC. It is a text RPG game in the style of older computer rpgs like Rogue, Net-hack, and Moria. I made it completely from scratch, programming in simple enemy AI, loading from text documents, items, and other mechanics. The main focus of this project was focusing on OOP and the architecture of code in games. I really liked this project because it's made me appreciate how much needs to go into even simple mechanics I've taken for granted. 
+#### Gish
+This project is one that I made as part of my Game Programming classes at NSCC. It is a text RPG game in the style of older computer rpgs like Rogue, Net-hack, and Moria. I made it completely from scratch, programming in simple enemy AI, loading from text documents, items, and other mechanics. The main focus of this project was focusing on OOP and the architecture of code in games. I really liked this project because it's made me appreciate how much needs to go into even simple mechanics I've taken for granted. 
 
-![TextRPG](https://github.com/gdmbenedict/gdmbenedict/assets/97464794/9ca39f96-5ddd-4b3f-b589-0e5198a53afb)
+![PUJLSr](https://github.com/user-attachments/assets/4b50cbee-9f02-4d05-bfbc-232ae5851aca)
 
 One thing I'm proud on having implemented is an action system that allows entities in the game to take multiple actions within their turn according to their speed. This means that other entities can both be faster or slower than the player, in a manner similar to how a board game like Dungeons and Dragons does their turn system. I've included the code for turns below as a peek in to the system.
 
@@ -105,8 +224,25 @@ public bool Update(Map map, UIManager uIManager, ItemManager itemManager, Entity
 
 }
 ```
+I also added functionality to handle system settings through a json file.
 
-This is still a project in active development so it's not available as a playable build, but you can take a look at the code on its publically available github repository [here](https://github.com/gdmbenedict/TextRPG_V2). *Comments in the code are pending.
+```
+//Loading Settings
+string path = Path.Combine(Environment.CurrentDirectory, GlobalVariables.settingsDirectory, GlobalVariables.settingsFilename);
+
+if (!File.Exists(path))
+{
+    Console.WriteLine("Setting file not found");
+    Console.ReadKey();
+    return;
+}
+
+string settingsText = File.ReadAllText(path);
+Settings settings = JsonSerializer.Deserialize<Settings>(settingsText);
+settings.ApplySettings();
+```
+
+If you're interested in what you're seeing you can check out the game on [itch.io](https://gdmbenedict.itch.io/gish) or check out the code on my [github](https://github.com/gdmbenedict/TextRPG_V2).
 
 #### Haunted Hospital
 This is another one of my NSCC solo projects. This assignment was for NSCC's "Game Engine" course, and was an assignment designed to teach Unity's sequencing and trigger systems, though I decided to expand on what the assignment was doing by trying to implement aspects of environmental story telling to the level. My main goal with this project was to evoke a foreboding/creepy atmosphere using Unity's lighting systems, sound systems, triggers, and timelines. Another key aspect I tried to keep in mind was the significance of using closed doors, and flickering lights as a visual motif in the level design. The game can be found [here](https://twitchton.itch.io/hospital-horror) on itch.io if you would like to see how the atmosphere of the game turned out for yourself.
