@@ -1,6 +1,6 @@
 # Hi there 👋 I'm Matt.
 
-I'm Matthieu Benedict, a first year student in NSCC's game programming progam specializing in Level Design and Gameplay Programming. I've dabbled in software engineering, IT, and management best practices, but my true love is game programming. I know a few different programming languages and am always hungry for more experience in the industry!
+I'm Matthieu Benedict, a second year student in NSCC's game programming progam specializing in gameplay and generalist programming. I've dabbled in software engineering, IT, and management best practices, but my true love is game programming. I know a few different programming languages and am always hungry for more experience in the industry!
 
 ## 💼 I’m currently working on...
 My main project at the moment is making a game design document for a theoretical horror game, done as part of my Game Design class at NSCC. The concept of the game is to have a survival horror game in the vein of "Silent Hill" that focueses on ARG elements in its gameplay. If you're interested in the concept, then you can check out the documentation I've made on [this](https://github.com/gdmbenedict/GDD-Horror-Game/wiki) Github wiki. I've also made a video walking through the blockmesh (graybox/whitebox) of the first three levels. You can watch that by clicking on the video below.
