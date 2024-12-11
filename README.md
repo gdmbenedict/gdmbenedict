@@ -436,6 +436,7 @@ I've also gained experience in programming non-game related applications. Curren
   <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="100" height="100"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" title="Github" alt="Github" width="100" height="100"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/unity/unity-original.svg" title="Unity" alt="Unity" width="100" height="100"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/godot/godot-original.svg" title="Godot" alt="Godot" width="100" height="100"/>&nbsp;
 </div>
 
 ## ✌️ About me...
