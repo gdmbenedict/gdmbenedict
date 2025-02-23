@@ -1,6 +1,6 @@
 # Hi there 👋 I'm Matt.
 
-I'm a second year student in NSCC's game programming progam specializing in gameplay and generalist programming. I've dabbled in software engineering, IT, and management best practices, but my true love is game programming. I know a few different programming languages and am always hungry for more experience in the industry!
+I'm a second year student in NSCC's game programming program specializing in gameplay and generalist programming. I've dabbled in software engineering, IT, and management best practices, but my true love is game programming. I know a few different programming languages and am always hungry for more experience in the industry!
 
 ## 💼 I’m currently working on...
 My main project at the moment is a SHMUP (Shoot em' Up) I made for my Game Development III course called Burrow Blaster. The idea with the game is to make a more accessible SHMUP by combining it with upgrade style mechanics in the vein of 2000s internet flash games (such as "*Learn to Fly*"). This is to help people get through the wall of "Get Good" that these games often require. I've included a video showing off the game below.
