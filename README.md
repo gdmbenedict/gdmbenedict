@@ -9,6 +9,44 @@ Right now I'm working on a game called "Cauldron Chaos". It's a little game wher
 
 I am the Audio Designer for the game, so I've been in charge of everything relating to audio, from the designing of the audio manager to the actual sounds and music used in the game. I've also contributed to the programing of some systems in the game. These systems include the input manager, player movement system, player interaction system, and some systems which have sadly been relegated to the cutting room floor. For this game I really focused on trying out a new architecture for my managers. I used a static instance to make the manager accissble to all scripts as well as implementing some code to make the object spawn itself if no istance already exists. Here's a sample below showing that off.
 
+```
+    private static AudioManager _instance;
+
+    //function that checks if Instance exists and spawns one if it does not
+    public static AudioManager instance
+    {
+        get
+        {
+            _instance = FindObjectOfType<AudioManager>();  // Try to find an existing AudioManager in the scene
+
+            //check if Instance is null
+            if (_instance == null)
+            {
+                // If no Instance exists, instantiate it
+                _instance = Instantiate(Resources.Load("AudioManager") as GameObject).GetComponent<AudioManager>();
+                _instance.name = "AudioManager";
+            }
+        return _instance;
+        }
+    }
+
+    // Awake is called before the first frame update and before start
+    void Awake()
+    {
+        //check if this is the active Instance
+        if (_instance == null)
+        {
+            _instance = this;
+            DontDestroyOnLoad(this);
+        }
+        else
+        {
+            //remove copy
+            Destroy(gameObject);
+        }
+    }
+```
+
 ## 📂 Things I've done...
 I've done a few things in the field of programming. here are some highlights.
 
