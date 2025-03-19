@@ -264,9 +264,9 @@ I've also gained experience in programming non-game related applications. Curren
 ### Fun facts:
 - I am bilingual in French and English. 🥖
 - I liked eating so much as a kid that I figured I should learn to cook and bake well. 🍳
-- I build plastic figurines of humanoid robots. 🤖
+- I build gunpla (plastic models of mechs). 🤖
 - I like to paint to help me relax. 🖌️
-- I like playing pretend with others around a table for long periods of time (D&D). 🐉
+- I like running games of D&D and other TTRPGs. 🐉
 - When I have time for it I try to practice the guitar. 🎸
 
 ### Media that has influenced me:
