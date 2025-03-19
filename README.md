@@ -110,6 +110,10 @@ This is a project I worked on for my proceedural generation class. The goal of t
 2. Populate city block by placing buildings of random sizes in all available and allowed locations (ex: must be adjacent to a road).
 3. Generate height for the building according to height rules (ex: larger buildings more likely to grow).
 
+Below is a video showcasing the final results of the project in action, which you can click on the image to watch. You can also check out the code yourself by checking out the [github](https://github.com/gdmbenedict/Proprietary-Algorithm/tree/main/Assets/Scripts) for the project.
+
+[![image](https://github.com/user-attachments/assets/7485d65a-85e4-4afe-b511-a4b9f021f871)](https://www.youtube.com/watch?v=bKUf-9amz4g)
+
 I was particularly proud of the building generation and the proceedural determination of what building block to use. Below is a snippet of code showing that off.
 
 ```
@@ -153,16 +157,15 @@ I was particularly proud of the building generation and the proceedural determin
                 //using orientation to spawn visual in right position
                 switch (orientation)
                 {
-                    //All possible cases for orientation
+                    /*
+                    All possible cases for orientation would go here
+                    ex: case 0: solitary 1x1 building (no other filled tiles around the tile)
+                    */
                 }
             }
         }
     }
 ```
-
-Below is a video showcasing the final results of the project in action, which you can click on the image to watch. You can also check out the code yourself by checking out the [github](https://github.com/gdmbenedict/Proprietary-Algorithm/tree/main/Assets/Scripts) for the project.
-
-[![image](https://github.com/user-attachments/assets/7485d65a-85e4-4afe-b511-a4b9f021f871)](https://www.youtube.com/watch?v=bKUf-9amz4g)
 
 #### Gish
 This project is one that I made as part of my Game Programming classes at NSCC. It is a text RPG game in the style of older computer rpgs like Rogue, Net-hack, and Moria. I made it completely from scratch, programming in simple enemy AI, loading from text documents, items, and other mechanics. The main focus of this project was focusing on OOP and the architecture of code in games. I really liked this project because it's made me appreciate how much needs to go into even simple mechanics I've taken for granted. 
